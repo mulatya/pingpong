@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ping-pong</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row row1">
+          <div class="col-md-12">
+            <h1 class="display-1 text-center">ping-pong</h1>
+
+          </div>
+
+        </div>
+        <div class="row section1">
+          <div class="col-md-3 about">
+            <h4>about ping pong</h4>
+            <h3>created by:</h3>
+            Emmanuel Mulatya <br>
+            <h3>github username/url:</h3>
+            mulatya <br>
+            <h3>level 2 test for:</h3>
+            JavaScript
+
+          </div>
+          <div class="col-md-7 col-md-offset-1">
+            <div id="main">
+              <h2>let's play</h2>
+              <h3>Rules</h3>
+              <p>
+                ping pong will count your number from 1 with exception from the following:
+                <ol>
+                  <li>number divisible by 3 become "ping"</li>
+                  <li>number divisible by 5 become "pong"</li>
+                  <li>number divisible by 3 and 5 become "pingpong"</li>
+                </ol>
+              </p>
+              <form id="pongpi">
+                <div class="form-group">
+                  <label for="number">  Enter a number</label>
+                  <input id="number" type="text"> <button type="submit" class="btn btn-default btn-md">ping pong!</button>
+                  </div>
+
+
+              </form>
+              <div>
+                <ul id="output">
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    <script src="js/jquery3.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

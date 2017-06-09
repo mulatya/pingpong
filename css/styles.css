@@ -1,0 +1,18 @@
+    body{
+      height: 100%;
+      width: 100%;
+      background-color: silver;
+    }
+    .section1{
+      padding-top:30px;
+    }
+    .row1{
+      background-color: orange;
+      height: 100px
+
+    }
+    .about{
+      background-color: #27A967;
+      margin-top: 10px;
+
+    }
