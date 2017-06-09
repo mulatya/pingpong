@@ -1,18 +1,22 @@
     body{
       height: 100%;
       width: 100%;
-      background-color: silver;
+      background-color:#CCCCCC;
     }
     .section1{
-      padding-top:30px;
+      padding-top: 30px;
     }
     .row1{
-      background-color: #f15429;
-      height: 100px
+      background-color:#EAD1A1;
+      height: 130px;
 
     }
     .about{
       background-color: #27A967;
       margin-top: 10px;
+      padding-bottom: 500px
 
     }
+.beige{
+  color:#EAD1A1;
+}
